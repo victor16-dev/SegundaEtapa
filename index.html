@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de Projeto - Tags HTML</title>
+   
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Desafio de Projeto - Tags HTML</h1>
+            <p>Este website demonstra o uso de diversas tags HTML aprendidas durante o curso</p>
+        </header>
+        
+        <div class="card">
+            <h2>Introdução ao HTML</h2>
+            <p>HTML (<span class="underline-text">HyperText Markup Language</span>) é a linguagem fundamental para criação de páginas web. Neste projeto, exploraremos diversas tags HTML e suas aplicações práticas.</p>
+            
+            <p><mark>O objetivo principal</mark> é demonstrar o uso correto das tags solicitadas no desafio, criando uma página <strong>semântica</strong> e <strong>bem estruturada</strong>.</p>
+            
+            <p><small>Nota: Este é um projeto demonstrativo para fins educacionais.</small></p>
+        </div>
+        
+        <div class="card">
+            <h2>Cabeçalhos (Headings)</h2>
+            <p>Os cabeçalhos definem a hierarquia e a estrutura do conteúdo. Eles vão de &lt;h1&gt; (mais importante) até &lt;h6&gt; (menos importante).</p>
+            
+            <div class="tag-example">
+                <h1>Título Principal (h1)</h1>
+                <h2>Subtítulo (h2)</h2>
+                <h3>Seção (h3)</h3>
+                <h4>Subseção (h4)</h4>
+                <h5>Detalhe (h5)</h5>
+                <h6>Informação menor (h6)</h6>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Formatação de Texto</h2>
+            <p>HTML oferece diversas tags para formatação semântica de texto:</p>
+            
+            <div class="special-text">
+                <p>Este é um <strong>texto importante</strong> que usa a tag &lt;strong&gt;.</p>
+                <p>Este é um <em>texto com ênfase</em> usando a tag &lt;em&gt;.</p>
+                <p>Este texto está <u>sublinhado</u> com a tag &lt;u&gt;.</p>
+                <p>Este é um <mark>texto marcado</mark> usando a tag &lt;mark&gt;.</p>
+                <p>Este é um <span class="small-text">texto pequeno</span> usando a tag &lt;small&gt;.</p>
+                <p>Este é um <span class="deleted-text">texto deletado</span> usando a tag &lt;del&gt;.</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Listas</h2>
+            <p>Listas são essenciais para organizar informações. HTML suporta listas ordenadas (&lt;ol&gt;) e não ordenadas (&lt;ul&gt;).</p>
+            
+            <div class="list-container">
+                <div class="list-box">
+                    <h3>Lista Ordenada (ol)</h3>
+                    <ol>
+                        <li>Primeiro item da lista</li>
+                        <li>Segundo item com subitens:
+                            <ol type="a">
+                                <li>Subitem A</li>
+                                <li>Subitem B</li>
+                            </ol>
+                        </li>
+                        <li>Terceiro item</li>
+                    </ol>
+                </div>
+                
+                <div class="list-box">
+                    <h3>Lista Não Ordenada (ul)</h3>
+                    <ul>
+                        <li>Item de lista</li>
+                        <li>Outro item com subitens:
+                            <ul>
+                                <li>Subitem 1</li>
+                                <li>Subitem 2</li>
+                            </ul>
+                        </li>
+                        <li>Último item</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Links e Navegação</h2>
+            <p>A tag &lt;a&gt; é usada para criar hyperlinks, a base da navegação web.</p>
+            
+            <p>Exemplos de links:</p>
+            <ul>
+                <li><a href="#intro">Link para a introdução</a> (âncora na mesma página)</li>
+                <li><a href="https://www.example.com" target="_blank">Link externo</a> (abre em nova aba)</li>
+                <li><a href="mailto:exemplo@email.com">Link de e-mail</a></li>
+            </ul>
+        </div>
+        
+        <hr>
+        
+        <div class="card">
+            <h2>Elementos Diversos</h2>
+            
+            <h3>Linha Horizontal (hr)</h3>
+            <p>A tag &lt;hr&gt; cria uma linha horizontal para separar conteúdos, como a linha acima desta seção.</p>
+            
+            <h3>Texto Subscrito e Sobrescrito</h3>
+            <div class="chemical">
+                <p>Fórmula química da água: H<sub>2</sub>O</p>
+                <p>Teorema de Pitágoras: a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></p>
+                <p>Datação histórica: Século XIV<sup>a</sup></p>
+            </div>
+            
+            <h3>Citações (blockquote)</h3>
+            <blockquote>
+                <p>"A simplicidade é o último grau de sofisticação."</p>
+                <p>- Leonardo da Vinci</p>
+            </blockquote>
+        </div>
+        
+        <div class="card">
+            <h2>Tags Sugeridas</h2>
+            
+            <div class="tags-container">
+                <div class="tag-example">
+                    <div class="tag-header">
+                        <div class="tag-name">&lt;font&gt;</div>
+                        <div class="tag-description">(Obsoleta, mas usada para demonstração)</div>
+                    </div>
+                    <p><font face="Verdana" color="#b21f1f" size="4">Este texto usa a tag &lt;font&gt; para alterar a fonte, cor e tamanho. Esta tag é obsoleta em HTML5 - devemos usar CSS no lugar.</font></p>
+                </div>
+                
+                <div class="tag-example">
+                    <div class="tag-header">
+                        <div class="tag-name">&lt;del&gt;</div>
+                        <div class="tag-description">Texto deletado/removido</div>
+                    </div>
+                    <p>Preço original: <del>R$ 299,90</del> | Preço promocional: R$ 199,90</p>
+                </div>
+                
+                <div class="tag-example">
+                    <div class="tag-header">
+                        <div class="tag-name">&lt;abbr&gt;</div>
+                        <div class="tag-description">Abreviações</div>
+                    </div>
+                    <p>A <abbr class="abbr-example" title="World Wide Web">WWW</abbr> foi inventada por Tim Berners-Lee.</p>
+                    <p>O <abbr class="abbr-example" title="HyperText Markup Language">HTML</abbr> é a base da web.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Todas as Tags Utilizadas</h2>
+            <div class="tag-grid">
+                <div class="tag-item">
+                    <div class="tag-title">&lt;h1&gt; - &lt;h6&gt;</div>
+                    <p>Cabeçalhos</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;p&gt;</div>
+                    <p>Parágrafos</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;mark&gt;</div>
+                    <p>Texto marcado</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;small&gt;</div>
+                    <p>Texto pequeno</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;i&gt; / &lt;em&gt;</div>
+                    <p>Ênfase/Itálico</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;u&gt;</div>
+                    <p>Sublinhado</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;strong&gt;</div>
+                    <p>Texto importante</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;ol&gt; & &lt;ul&gt;</div>
+                    <p>Listas</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;li&gt;</div>
+                    <p>Item de lista</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;a&gt;</div>
+                    <p>Links</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;hr&gt;</div>
+                    <p>Linha horizontal</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;sub&gt;</div>
+                    <p>Subscrito</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;sup&gt;</div>
+                    <p>Sobrescrito</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;blockquote&gt;</div>
+                    <p>Citação</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;font&gt;</div>
+                    <p>Estilo de fonte (obsoleto)</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;del&gt;</div>
+                    <p>Texto deletado</p>
+                </div>
+                <div class="tag-item">
+                    <div class="tag-title">&lt;abbr&gt;</div>
+                    <p>Abreviação</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Desafio de Projeto - Utilização de Tags HTML</p>
+            <p><small>Desenvolvido para fins educacionais | 2023</small></p>
+        </footer>
+    </div>
+</body>
+</html>
